@@ -29,6 +29,7 @@ struct FructusSettingView: View {
                                 .scaledToFit()
                                 .frame(width: 80, height: 80)
                                 .cornerRadius(9)
+                            
                             Text("Most fruits are naturally low in fat,sodium,and calories. None have cholestrerol. Fruits are sources of many essential nutrients, including potassium, dietary fiber, vitamins, and much more")
                                 .font(.footnote)
                         }
@@ -45,8 +46,18 @@ struct FructusSettingView: View {
                             .multilineTextAlignment(.leading)
                         
                         Toggle(isOn: $isOnboarding) {
-                            Text("Restart".uppercased())
+                            if isOnboarding {
+                                Text("Restarted".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color.green)
+                            }else {
+                                Text("Restart".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color.secondary)
+                            }
                         }
+                        .padding()
+                        .background(Color(UIColor.tertiarySystemBackground).clipShape(RoundedRectangle(cornerRadius: 8,style: .continuous)))
                     }
                     
                     GroupBox(label: SettingLabelView(labelText: "Application", labelImage: "app.iphone")) {
@@ -63,6 +74,7 @@ struct FructusSettingView: View {
                 .navigationBarTitle(Text("Settings"),displayMode: .large)
                 .navigationBarItems(
                     trailing:Button(action: {
+                        print("action")
                         presentationMode.wrappedValue.dismiss()
                     }) {
                         Image(systemName: "xmark")

@@ -40,6 +40,7 @@ struct FructusContentView: View {
                     }
             )
         }//NavigationView
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

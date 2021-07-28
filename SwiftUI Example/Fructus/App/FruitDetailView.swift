@@ -55,6 +55,8 @@ struct FruitDetailView: View {
             }//ScrollView
             .edgesIgnoringSafeArea(.top)
         }//NavigationView
+        //이거 써줘야 iPad에서도 UI 정상적으로 보임
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
