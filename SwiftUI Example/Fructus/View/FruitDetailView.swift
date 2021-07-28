@@ -33,12 +33,18 @@ struct FruitDetailView: View {
                             .font(.headline)
                             .multilineTextAlignment(.leading)
                         
+                        FruitNutrientView(fruit: fruit)
+                        
                         Text("Learn more about \(fruit.title)".uppercased())
                             .fontWeight(.bold)
                             .foregroundColor(fruit.gradientColors[1])
                         
                         Text(fruit.description)
                             .multilineTextAlignment(.leading)
+                        
+                        SourceLinkView()
+                            .padding(.top,10)
+                            .padding(.bottom,40)
                             
                     }//VStack
                     .padding(.horizontal,20)
