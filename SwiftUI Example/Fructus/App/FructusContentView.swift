@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FructusContentView: View {
     
     var fruits:[Fruit] = fruitData
     
@@ -15,8 +15,10 @@ struct ContentView: View {
         NavigationView{
             List {
                 ForEach(fruits.shuffled()) { fruit in
-                    FruitRowView(fruit: fruit)
-                        .padding(.vertical,4)
+                    NavigationLink(destination: FruitDetailView(fruit: fruit)) {
+                        FruitRowView(fruit: fruit)
+                            .padding(.vertical,4)
+                    }//NavigationLink
                 }
             }//List
             .navigationTitle("Fruits")
@@ -25,9 +27,9 @@ struct ContentView: View {
 }
 
 //MARK:- Previews
-struct ContentView_Previews: PreviewProvider {
+struct FructusContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(fruits: fruitData)
+        FructusContentView(fruits: fruitData)
             .previewDevice("iphone 12 Pro")
     }
 }
