@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct OnboardingView: View {
+struct FructusOnboardingView: View {
     
     //MARK:- Properties
     
@@ -27,9 +27,9 @@ struct OnboardingView: View {
 }
 
 //MARK:- Preview
-struct OnboardingView_Previews: PreviewProvider {
+struct FructusOnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView(fruits: fruitData)
+        FructusOnboardingView(fruits: fruitData)
             .previewDevice("iphone 12 pro")
     }
 }
