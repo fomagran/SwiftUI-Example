@@ -10,10 +10,12 @@ import SwiftUI
 struct FruitsCardView: View {
     
     //MARK:- PROPERTIES
+    
     var fruit:Fruit
     @State private var isAnimating:Bool = false
     
     //MARK:- BODY
+    
     var body: some View {
         ZStack {
             VStack(spacing:20) {
@@ -33,6 +35,7 @@ struct FruitsCardView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal,16)
                     .frame(maxWidth:480)
+                
                 //Button:Start
                 StartButtonView()
                 
@@ -51,6 +54,7 @@ struct FruitsCardView: View {
 }
 
 //MARK- PREVIEW
+
 struct FruitsCardView_Previews: PreviewProvider {
     static var previews: some View {
         FruitsCardView(fruit: fruitData[4])
