@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0430481E26B0DDF600372370 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430481D26B0DDF600372370 /* FruitRowView.swift */; };
 		04F2ED9D26AFB06200352F7D /* SwiftUI_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2ED9C26AFB06200352F7D /* SwiftUI_ExampleApp.swift */; };
 		04F2ED9F26AFB06200352F7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2ED9E26AFB06200352F7D /* ContentView.swift */; };
 		04F2EDA126AFB06300352F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F2EDA026AFB06300352F7D /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0430481D26B0DDF600372370 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		04F2ED9926AFB06200352F7D /* SwiftUI Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F2ED9C26AFB06200352F7D /* SwiftUI_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExampleApp.swift; sourceTree = "<group>"; };
 		04F2ED9E26AFB06200352F7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				04F2EDCB26AFD44600352F7D /* OnboardingView.swift */,
 				04F2EDC726AFBB3200352F7D /* FruitsCardView.swift */,
 				04F2EDC926AFD22200352F7D /* StartButtonView.swift */,
+				0430481D26B0DDF600372370 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				04F2EDD226AFD6E800352F7D /* FruitData.swift in Sources */,
 				04F2EDCF26AFD67F00352F7D /* Fruit.swift in Sources */,
+				0430481E26B0DDF600372370 /* FruitRowView.swift in Sources */,
 				04F2EDC826AFBB3200352F7D /* FruitsCardView.swift in Sources */,
 				04F2EDCA26AFD22200352F7D /* StartButtonView.swift in Sources */,
 				04F2ED9F26AFB06200352F7D /* ContentView.swift in Sources */,

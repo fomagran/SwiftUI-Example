@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUI_ExampleApp: App {
+    @AppStorage("isOnboarding") var isOnboarding:Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+           ContentView()
         }
     }
 }
