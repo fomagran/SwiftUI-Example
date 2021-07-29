@@ -23,7 +23,11 @@ struct AfricaContentView: View {
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 
                 ForEach(animals) { animal in
-                    AnimalListItemView(animal: animal)
+                    //테이블뷰 아이템 디드 셀렉트랑 비슷
+                    NavigationLink(destination: AnimalDetailView(animal: animal)) {
+                        AnimalListItemView(animal: animal)
+                    }//NavigationLink
+
                 }
             }//List
             .listStyle(PlainListStyle())
