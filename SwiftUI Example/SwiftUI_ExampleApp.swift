@@ -13,11 +13,7 @@ struct SwiftUI_ExampleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            if isOnboarding {
-                FructusOnboardingView()
-            }else {
-                FructusContentView()
-            }
+           AfricaMainView()
         }
     }
 }

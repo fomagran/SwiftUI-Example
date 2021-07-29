@@ -43,5 +43,7 @@ struct AfricaMainView: View {
 struct AfricaMainView_Previews: PreviewProvider {
     static var previews: some View {
         AfricaMainView()
+            .previewDevice("iPhone 12 Pro")
+            .preferredColorScheme(.dark)
     }
 }
