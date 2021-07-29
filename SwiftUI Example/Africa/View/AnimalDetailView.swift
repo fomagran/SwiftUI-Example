@@ -48,6 +48,25 @@ struct AnimalDetailView: View {
                 }
                 .padding(.horizontal)
                 
+                Group {
+                    AnimalDetailHeadView(headImage: "questionmark.circle",headText: "Did you know?")
+                    InsetFactView(animal: animal)
+                }
+                .padding(.horizontal)
+                
+                Group {
+                    AnimalDetailHeadView(headImage: "info.circle", headText: "All about \(animal.name)")
+                    
+                    Text(animal.description)
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)
+                }
+                .padding(.horizontal)
+                
+                Group {
+                    AnimalDetailHeadView(headImage: "map", headText: "National Parks")
+                }
+                .padding(.horizontal)
                 
             }//VStack
             .navigationBarTitle("Learn about \(animal.name)",displayMode: .inline)
@@ -63,6 +82,7 @@ struct AnimalDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
             AnimalDetailView(animal: animals[0])
+                .preferredColorScheme(.dark)
         }
     }
 }

@@ -27,8 +27,7 @@ struct AfricaContentView: View {
                     NavigationLink(destination: AnimalDetailView(animal: animal)) {
                         AnimalListItemView(animal: animal)
                     }//NavigationLink
-
-                }
+                }//ForEach
             }//List
             .listStyle(PlainListStyle())
             .navigationBarTitle("Africa",displayMode: .large)
