@@ -10,6 +10,7 @@
 		0430481E26B0DDF600372370 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430481D26B0DDF600372370 /* FruitRowView.swift */; };
 		0430482026B0E1DA00372370 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430481F26B0E1DA00372370 /* FruitDetailView.swift */; };
 		0430482226B0E40C00372370 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430482126B0E40C00372370 /* FruitHeaderView.swift */; };
+		04DA6B3D26B234F100D88E2D /* Africa in Resources */ = {isa = PBXBuildFile; fileRef = 04DA6B3C26B234F100D88E2D /* Africa */; };
 		04F0E35426B0E64F00CA0CD2 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E35326B0E64F00CA0CD2 /* SourceLinkView.swift */; };
 		04F0E35626B0E7DD00CA0CD2 /* FruitNutrientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E35526B0E7DD00CA0CD2 /* FruitNutrientView.swift */; };
 		04F0E35826B0EFD000CA0CD2 /* FructusSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E35726B0EFD000CA0CD2 /* FructusSettingView.swift */; };
@@ -47,6 +48,8 @@
 		0430481D26B0DDF600372370 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		0430481F26B0E1DA00372370 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		0430482126B0E40C00372370 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		04DA6B3026B2348A00D88E2D /* SwiftUI-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Example-Info.plist"; sourceTree = SOURCE_ROOT; };
+		04DA6B3C26B234F100D88E2D /* Africa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Africa; sourceTree = "<group>"; };
 		04F0E35326B0E64F00CA0CD2 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		04F0E35526B0E7DD00CA0CD2 /* FruitNutrientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientView.swift; sourceTree = "<group>"; };
 		04F0E35726B0EFD000CA0CD2 /* FructusSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusSettingView.swift; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 		04F2ED9B26AFB06200352F7D /* SwiftUI Example */ = {
 			isa = PBXGroup;
 			children = (
+				04DA6B3C26B234F100D88E2D /* Africa */,
+				04DA6B3026B2348A00D88E2D /* SwiftUI-Example-Info.plist */,
 				04F2EDC426AFB8C500352F7D /* Fructus */,
 				04F2ED9C26AFB06200352F7D /* SwiftUI_ExampleApp.swift */,
 				04F2EDA026AFB06300352F7D /* Assets.xcassets */,
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F2EDA426AFB06300352F7D /* Preview Assets.xcassets in Resources */,
+				04DA6B3D26B234F100D88E2D /* Africa in Resources */,
 				04F2EDA126AFB06300352F7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,9 +492,9 @@
 				DEVELOPMENT_TEAM = 2F54VR68GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Example-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -516,9 +522,9 @@
 				DEVELOPMENT_TEAM = 2F54VR68GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Example-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
