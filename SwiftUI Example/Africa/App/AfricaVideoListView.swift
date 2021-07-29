@@ -9,18 +9,33 @@ import SwiftUI
 
 struct AfricaVideoListView: View {
     
-    var videos:[AnimalVideo] = Bundle.main.decode("videos.json")
+   @State var videos:[AnimalVideo] = Bundle.main.decode("videos.json")
+    //진동오게 하는거라고 추측
+    let hapticImpact = UIImpactFeedbackGenerator(style:.medium)
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(videos) { video in
-                    AnimalVideoListItemView(video:video)
-                        .padding(.vertical,8)
+                    NavigationLink(destination: AnimalVideoPlayerView(videoSelected: video.id, videoTitle: video.name)) {
+                        AnimalVideoListItemView(video:video)
+                            .padding(.vertical,8)
+                    }
                 }
             }//List
             .listStyle(InsetGroupedListStyle())
             .navigationBarTitle("Videos",displayMode: .inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        videos.shuffle()
+                        hapticImpact.impactOccurred()
+                    } label: {
+                        Image(systemName: "arrow.2.squarepath")
+                    }
+
+                }
+            }
         }//NavigationView
     }
 }
