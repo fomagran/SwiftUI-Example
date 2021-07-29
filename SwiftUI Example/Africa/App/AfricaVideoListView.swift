@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct AfricaVideoListView: View {
+    
+    var videos:[AnimalVideo] = Bundle.main.decode("videos.json")
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(videos) { video in
+                    AnimalVideoListItemView(video:video)
+                        .padding(.vertical,8)
+                }
+            }//List
+            .listStyle(InsetGroupedListStyle())
+            .navigationBarTitle("Videos",displayMode: .inline)
+        }//NavigationView
     }
 }
 

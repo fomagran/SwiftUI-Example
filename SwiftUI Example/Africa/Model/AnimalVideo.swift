@@ -11,4 +11,9 @@ struct AnimalVideo:Codable,Identifiable {
     let id:String
     let name:String
     let headline:String
+    
+    //Computed Property
+    var thumnail:String {
+        "video-\(id)"
+    }
 }
