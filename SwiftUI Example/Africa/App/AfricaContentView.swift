@@ -8,13 +8,33 @@
 import SwiftUI
 
 struct AfricaContentView: View {
+    
+    //MARK:- Properties
+    
+    let animals:[Animal] = Bundle.main.decode("animals.json")
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        NavigationView {
+            List {
+            AfricaCoverImageView()
+                    .frame(height:300)
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                
+                ForEach(animals) { animal in
+                    AnimalListItemView(animal: animal)
+                }
+            }//List
+            .listStyle(PlainListStyle())
+            .navigationBarTitle("Africal",displayMode: .large)
+        }//NavigationView
     }
 }
 
 struct AfricaContentView_Previews: PreviewProvider {
     static var previews: some View {
         AfricaContentView()
+            .preferredColorScheme(.dark)
     }
 }

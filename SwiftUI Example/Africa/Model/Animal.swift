@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Animal {
+struct Animal:Codable,Identifiable {
     let id:String
     let name:String
     let headline:String
