@@ -27,7 +27,7 @@ struct AfricaContentView: View {
                 }
             }//List
             .listStyle(PlainListStyle())
-            .navigationBarTitle("Africal",displayMode: .large)
+            .navigationBarTitle("Africa",displayMode: .large)
         }//NavigationView
     }
 }

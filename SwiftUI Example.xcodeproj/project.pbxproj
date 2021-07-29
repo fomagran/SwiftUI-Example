@@ -24,6 +24,9 @@
 		04DA6B7A26B23A6300D88E2D /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA6B7926B23A6300D88E2D /* CodableBundleExtension.swift */; };
 		04DA6B8026B2400000D88E2D /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA6B7F26B2400000D88E2D /* AnimalListItemView.swift */; };
 		04DA6B8226B2401100D88E2D /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA6B8126B2401100D88E2D /* Animal.swift */; };
+		04DA6B8426B2440F00D88E2D /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA6B8326B2440F00D88E2D /* AnimalDetailView.swift */; };
+		04DA6B8626B2457600D88E2D /* AnimalDetailHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA6B8526B2457600D88E2D /* AnimalDetailHeadView.swift */; };
+		04DA6B8826B2466200D88E2D /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA6B8726B2466200D88E2D /* InsetGalleryView.swift */; };
 		04F0E35426B0E64F00CA0CD2 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E35326B0E64F00CA0CD2 /* SourceLinkView.swift */; };
 		04F0E35626B0E7DD00CA0CD2 /* FruitNutrientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E35526B0E7DD00CA0CD2 /* FruitNutrientView.swift */; };
 		04F0E35826B0EFD000CA0CD2 /* FructusSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0E35726B0EFD000CA0CD2 /* FructusSettingView.swift */; };
@@ -86,6 +89,9 @@
 		04DA6B7926B23A6300D88E2D /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		04DA6B7F26B2400000D88E2D /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		04DA6B8126B2401100D88E2D /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		04DA6B8326B2440F00D88E2D /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		04DA6B8526B2457600D88E2D /* AnimalDetailHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailHeadView.swift; sourceTree = "<group>"; };
+		04DA6B8726B2466200D88E2D /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		04F0E35326B0E64F00CA0CD2 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		04F0E35526B0E7DD00CA0CD2 /* FruitNutrientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientView.swift; sourceTree = "<group>"; };
 		04F0E35726B0EFD000CA0CD2 /* FructusSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusSettingView.swift; sourceTree = "<group>"; };
@@ -188,6 +194,9 @@
 			children = (
 				04DA6B7326B2393900D88E2D /* AfricaCoverImageView.swift */,
 				04DA6B7F26B2400000D88E2D /* AnimalListItemView.swift */,
+				04DA6B8326B2440F00D88E2D /* AnimalDetailView.swift */,
+				04DA6B8526B2457600D88E2D /* AnimalDetailHeadView.swift */,
+				04DA6B8726B2466200D88E2D /* InsetGalleryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -446,16 +455,19 @@
 				04F0E35626B0E7DD00CA0CD2 /* FruitNutrientView.swift in Sources */,
 				04F2EDC826AFBB3200352F7D /* FruitsCardView.swift in Sources */,
 				04DA6B7726B23A1400D88E2D /* CoverImage.swift in Sources */,
+				04DA6B8826B2466200D88E2D /* InsetGalleryView.swift in Sources */,
 				0430482026B0E1DA00372370 /* FruitDetailView.swift in Sources */,
 				04F2EDCA26AFD22200352F7D /* StartButtonView.swift in Sources */,
 				04F0E35826B0EFD000CA0CD2 /* FructusSettingView.swift in Sources */,
 				04DA6B8226B2401100D88E2D /* Animal.swift in Sources */,
 				0430482226B0E40C00372370 /* FruitHeaderView.swift in Sources */,
 				04F2ED9F26AFB06200352F7D /* FructusContentView.swift in Sources */,
+				04DA6B8426B2440F00D88E2D /* AnimalDetailView.swift in Sources */,
 				04DA6B4826B235F300D88E2D /* AfricaVideoListView.swift in Sources */,
 				04DA6B7A26B23A6300D88E2D /* CodableBundleExtension.swift in Sources */,
 				04DA6B4726B235F300D88E2D /* AfricaMainView.swift in Sources */,
 				04F2EDCC26AFD44600352F7D /* FructusOnboardingView.swift in Sources */,
+				04DA6B8626B2457600D88E2D /* AnimalDetailHeadView.swift in Sources */,
 				04F2ED9D26AFB06200352F7D /* SwiftUI_ExampleApp.swift in Sources */,
 				04DA6B4526B235F300D88E2D /* AfricaContentView.swift in Sources */,
 				04F0E35C26B0F4CE00CA0CD2 /* SettingRowView.swift in Sources */,
