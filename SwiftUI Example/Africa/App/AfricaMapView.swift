@@ -24,9 +24,7 @@ struct AfricaMapView: View {
     
     //MARK:- Body
     
-    var body: some View {
-        Map(coordinateRegion: $region)
-        
+    var body: some View {        
         Map(coordinateRegion: $region,annotationItems: locations,annotationContent:{ item in
             //old style map marker
 //            MapPin(coordinate: item.location, tint: .accentColor)
