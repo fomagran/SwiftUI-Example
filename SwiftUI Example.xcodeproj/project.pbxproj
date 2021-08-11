@@ -10,6 +10,9 @@
 		0430481E26B0DDF600372370 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430481D26B0DDF600372370 /* FruitRowView.swift */; };
 		0430482026B0E1DA00372370 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430481F26B0E1DA00372370 /* FruitDetailView.swift */; };
 		0430482226B0E40C00372370 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430482126B0E40C00372370 /* FruitHeaderView.swift */; };
+		045FBC4726C354B500B3BA7D /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045FBC4626C354B500B3BA7D /* Stickers.xcassets */; };
+		045FBC4B26C354B500B3BA7D /* Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 045FBC4426C354B400B3BA7D /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		045FBC5126C358BD00B3BA7D /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FBC5026C358BD00B3BA7D /* MapAnnotationView.swift */; };
 		047061BD26C22CF400C67736 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047061BC26C22CF400C67736 /* AnimalGridItemView.swift */; };
 		04C96FCE26C1FE3C007A7FFA /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC426C1FE38007A7FFA /* cheetah.mp4 */; };
 		04C96FCF26C1FE3C007A7FFA /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC526C1FE39007A7FFA /* ostrich.mp4 */; };
@@ -64,6 +67,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		045FBC4926C354B500B3BA7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F2ED9126AFB06200352F7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045FBC4326C354B400B3BA7D;
+			remoteInfo = Stickers;
+		};
 		04F2EDAA26AFB06300352F7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04F2ED9126AFB06200352F7D /* Project object */;
@@ -80,10 +90,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		045FBC4F26C354B500B3BA7D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				045FBC4B26C354B500B3BA7D /* Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0430481D26B0DDF600372370 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		0430481F26B0E1DA00372370 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		0430482126B0E40C00372370 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		045FBC4426C354B400B3BA7D /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FBC4626C354B500B3BA7D /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		045FBC4826C354B500B3BA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045FBC5026C358BD00B3BA7D /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		047061BC26C22CF400C67736 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		04C96FC426C1FE38007A7FFA /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 		04C96FC526C1FE39007A7FFA /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
@@ -166,6 +194,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045FBC4526C354B400B3BA7D /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				045FBC4626C354B500B3BA7D /* Stickers.xcassets */,
+				045FBC4826C354B500B3BA7D /* Info.plist */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
 		04DA6B3E26B235D600D88E2D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +272,7 @@
 				04DA6B9F26B257E800D88E2D /* AnimalVideoPlayerView.swift */,
 				04C96FDA26C20391007A7FFA /* AnimalMotionAnimationView.swift */,
 				047061BC26C22CF400C67736 /* AnimalGridItemView.swift */,
+				045FBC5026C358BD00B3BA7D /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				04F2ED9B26AFB06200352F7D /* SwiftUI Example */,
+				045FBC4526C354B400B3BA7D /* Stickers */,
 				04F2ED9A26AFB06200352F7D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -280,6 +319,7 @@
 				04F2ED9926AFB06200352F7D /* SwiftUI Example.app */,
 				04F2EDA926AFB06300352F7D /* SwiftUI ExampleTests.xctest */,
 				04F2EDB326AFB06400352F7D /* SwiftUI ExampleUITests.xctest */,
+				045FBC4426C354B400B3BA7D /* Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -361,6 +401,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		045FBC4326C354B400B3BA7D /* Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045FBC4C26C354B500B3BA7D /* Build configuration list for PBXNativeTarget "Stickers" */;
+			buildPhases = (
+				045FBC4226C354B400B3BA7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stickers;
+			productName = Stickers;
+			productReference = 045FBC4426C354B400B3BA7D /* Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		04F2ED9826AFB06200352F7D /* SwiftUI Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F2EDBB26AFB06400352F7D /* Build configuration list for PBXNativeTarget "SwiftUI Example" */;
@@ -368,10 +423,12 @@
 				04F2ED9526AFB06200352F7D /* Sources */,
 				04F2ED9626AFB06200352F7D /* Frameworks */,
 				04F2ED9726AFB06200352F7D /* Resources */,
+				045FBC4F26C354B500B3BA7D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				045FBC4A26C354B500B3BA7D /* PBXTargetDependency */,
 			);
 			name = "SwiftUI Example";
 			productName = "SwiftUI Example";
@@ -424,6 +481,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					045FBC4326C354B400B3BA7D = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					04F2ED9826AFB06200352F7D = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -453,11 +513,20 @@
 				04F2ED9826AFB06200352F7D /* SwiftUI Example */,
 				04F2EDA826AFB06300352F7D /* SwiftUI ExampleTests */,
 				04F2EDB226AFB06400352F7D /* SwiftUI ExampleUITests */,
+				045FBC4326C354B400B3BA7D /* Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		045FBC4226C354B400B3BA7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045FBC4726C354B500B3BA7D /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04F2ED9726AFB06200352F7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -514,6 +583,7 @@
 				047061BD26C22CF400C67736 /* AnimalGridItemView.swift in Sources */,
 				04F2EDCF26AFD67F00352F7D /* Fruit.swift in Sources */,
 				0430481E26B0DDF600372370 /* FruitRowView.swift in Sources */,
+				045FBC5126C358BD00B3BA7D /* MapAnnotationView.swift in Sources */,
 				04F0E35626B0E7DD00CA0CD2 /* FruitNutrientView.swift in Sources */,
 				04DA6BA326B2588900D88E2D /* VideoPlayerHelper.swift in Sources */,
 				04F2EDC826AFBB3200352F7D /* FruitsCardView.swift in Sources */,
@@ -560,6 +630,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		045FBC4A26C354B500B3BA7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045FBC4326C354B400B3BA7D /* Stickers */;
+			targetProxy = 045FBC4926C354B500B3BA7D /* PBXContainerItemProxy */;
+		};
 		04F2EDAB26AFB06300352F7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04F2ED9826AFB06200352F7D /* SwiftUI Example */;
@@ -573,6 +648,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		045FBC4D26C354B500B3BA7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F54VR68GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fomagran.SwiftUI-Example.Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045FBC4E26C354B500B3BA7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F54VR68GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fomagran.SwiftUI-Example.Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		04F2EDB926AFB06400352F7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -848,6 +961,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		045FBC4C26C354B500B3BA7D /* Build configuration list for PBXNativeTarget "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FBC4D26C354B500B3BA7D /* Debug */,
+				045FBC4E26C354B500B3BA7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04F2ED9426AFB06200352F7D /* Build configuration list for PBXProject "SwiftUI Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
