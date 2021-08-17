@@ -13,6 +13,7 @@ struct SwiftUI_ExampleApp: App {
     var body: some Scene {
         WindowGroup {
           TouchDownContentView()
+                .environmentObject(Shop())
         }
     }
 }

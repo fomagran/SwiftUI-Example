@@ -11,11 +11,18 @@ struct DetailNavigationBarView: View {
     
     //MARK:- Properties
     
+    @EnvironmentObject var shop:Shop
+    
     //MARK:- Body
     
     var body: some View {
         HStack {
-            Button(action: {}) {
+            Button(action: {
+                withAnimation(.easeIn) {
+                    shop.selectedProduct = nil
+                    shop.showingProduct = false
+                }
+            }) {
                 Image(systemName: "chevron.left")
                     .font(.title)
                     .foregroundColor(.white)
@@ -37,5 +44,6 @@ struct DetailNavigationBarView: View {
 struct DetailNavigationBarView_Previews: PreviewProvider {
     static var previews: some View {
         DetailNavigationBarView()
+            .environmentObject(Shop())
     }
 }

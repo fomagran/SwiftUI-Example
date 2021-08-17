@@ -9,9 +9,12 @@ import SwiftUI
 
 struct TouchDownContentView: View {
     
+    @EnvironmentObject var shop:Shop
 
     var body: some View {
         ZStack {
+            //option commad <- 누르면 줄일 수 있음
+            if shop.showingProduct == false && shop.selectedProduct == nil {
             VStack(spacing:0) {
                 NavigationBarView()
                     .padding(.horizontal,15)
@@ -33,6 +36,12 @@ struct TouchDownContentView: View {
                         LazyVGrid(columns: gridLayout,spacing: 15) {
                             ForEach(products) {product in
                                 ProductItemView(product: product)
+                                    .onTapGesture {
+                                        withAnimation(.easeOut) {
+                                            shop.selectedProduct = product
+                                            shop.showingProduct = true
+                                        }
+                                    }
                             }
                         }
                         .padding(15)
@@ -47,6 +56,9 @@ struct TouchDownContentView: View {
                 
             }//VStack
             .background(touchDownBackground.ignoresSafeArea(.all,edges: .all))
+            }else {
+                ProductDetailView()
+            }
         }//ZStack
         .ignoresSafeArea(.all,edges:.top)
         
@@ -57,5 +69,6 @@ struct TouchDownContentView: View {
 struct TouchDownContentView_Previews: PreviewProvider {
     static var previews: some View {
         TouchDownContentView()
+            .environmentObject(Shop())
     }
 }

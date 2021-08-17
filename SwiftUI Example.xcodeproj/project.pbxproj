@@ -42,6 +42,7 @@
 		047996D326CB696000203446 /* DetailRatingSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996D226CB696000203446 /* DetailRatingSizeView.swift */; };
 		047996D926CB7F9700203446 /* DetailQuantityFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996D826CB7F9700203446 /* DetailQuantityFavoriteView.swift */; };
 		047996DB26CB81EF00203446 /* DetailAddToCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996DA26CB81EF00203446 /* DetailAddToCartView.swift */; };
+		047996DD26CB826000203446 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996DC26CB826000203446 /* Shop.swift */; };
 		04C96FCE26C1FE3C007A7FFA /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC426C1FE38007A7FFA /* cheetah.mp4 */; };
 		04C96FCF26C1FE3C007A7FFA /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC526C1FE39007A7FFA /* ostrich.mp4 */; };
 		04C96FD026C1FE3C007A7FFA /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC626C1FE39007A7FFA /* rhino.mp4 */; };
@@ -160,6 +161,7 @@
 		047996D226CB696000203446 /* DetailRatingSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRatingSizeView.swift; sourceTree = "<group>"; };
 		047996D826CB7F9700203446 /* DetailQuantityFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailQuantityFavoriteView.swift; sourceTree = "<group>"; };
 		047996DA26CB81EF00203446 /* DetailAddToCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAddToCartView.swift; sourceTree = "<group>"; };
+		047996DC26CB826000203446 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		04C96FC426C1FE38007A7FFA /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 		04C96FC526C1FE39007A7FFA /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
 		04C96FC626C1FE39007A7FFA /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 			children = (
 				047996A526CB4F1900203446 /* Constants.swift */,
 				047996D026CB685900203446 /* CustomShape.swift */,
+				047996DC26CB826000203446 /* Shop.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -688,6 +691,7 @@
 				04DA6B7426B2393900D88E2D /* AfricaCoverImageView.swift in Sources */,
 				04F0E35A26B0F2E800CA0CD2 /* SettingLabelView.swift in Sources */,
 				04C96FDB26C20391007A7FFA /* AnimalMotionAnimationView.swift in Sources */,
+				047996DD26CB826000203446 /* Shop.swift in Sources */,
 				047996B626CB5E5E00203446 /* CategoryItemView.swift in Sources */,
 				04DA6B4626B235F300D88E2D /* AfricaMapView.swift in Sources */,
 				04DA6BA026B257E800D88E2D /* AnimalVideoPlayerView.swift in Sources */,
