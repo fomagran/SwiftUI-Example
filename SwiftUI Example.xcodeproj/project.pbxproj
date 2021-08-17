@@ -38,6 +38,7 @@
 		047996CB26CB65A800203446 /* DetailNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996CA26CB65A800203446 /* DetailNavigationBarView.swift */; };
 		047996CD26CB662F00203446 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996CC26CB662F00203446 /* DetailHeaderView.swift */; };
 		047996CF26CB66C500203446 /* DetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996CE26CB66C500203446 /* DetailTopView.swift */; };
+		047996D126CB685900203446 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047996D026CB685900203446 /* CustomShape.swift */; };
 		04C96FCE26C1FE3C007A7FFA /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC426C1FE38007A7FFA /* cheetah.mp4 */; };
 		04C96FCF26C1FE3C007A7FFA /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC526C1FE39007A7FFA /* ostrich.mp4 */; };
 		04C96FD026C1FE3C007A7FFA /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C96FC626C1FE39007A7FFA /* rhino.mp4 */; };
@@ -152,6 +153,7 @@
 		047996CA26CB65A800203446 /* DetailNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigationBarView.swift; sourceTree = "<group>"; };
 		047996CC26CB662F00203446 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		047996CE26CB66C500203446 /* DetailTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTopView.swift; sourceTree = "<group>"; };
+		047996D026CB685900203446 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		04C96FC426C1FE38007A7FFA /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 		04C96FC526C1FE39007A7FFA /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
 		04C96FC626C1FE39007A7FFA /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				047996A526CB4F1900203446 /* Constants.swift */,
+				047996D026CB685900203446 /* CustomShape.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -679,6 +682,7 @@
 				047996B626CB5E5E00203446 /* CategoryItemView.swift in Sources */,
 				04DA6B4626B235F300D88E2D /* AfricaMapView.swift in Sources */,
 				04DA6BA026B257E800D88E2D /* AnimalVideoPlayerView.swift in Sources */,
+				047996D126CB685900203446 /* CustomShape.swift in Sources */,
 				04C96FD926C1FF1E007A7FFA /* LocationModel.swift in Sources */,
 				047996B226CB5BC000203446 /* FeaturedTabView.swift in Sources */,
 				04DA6B8026B2400000D88E2D /* AnimalListItemView.swift in Sources */,
