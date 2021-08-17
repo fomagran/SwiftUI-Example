@@ -5,7 +5,7 @@
 //  Created by Fomagran on 2021/07/27.
 //
 
-import SwiftUI
+import SwiftUI 
 
 @main
 struct SwiftUI_ExampleApp: App {
