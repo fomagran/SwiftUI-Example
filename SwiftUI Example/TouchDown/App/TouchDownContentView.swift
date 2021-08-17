@@ -26,10 +26,14 @@ struct TouchDownContentView: View {
                             .padding(.vertical,20)
                             .frame(height:UIScreen.main.bounds.width/1.475)
                         
+                        CategoryGridView()
+                        
                         FooterView()
                             .padding(.horizontal)
                     }//VStack
                 })//Scroll
+                
+                
             }//VStack
             .background(touchDownBackground.ignoresSafeArea(.all,edges: .all))
         }//ZStack
