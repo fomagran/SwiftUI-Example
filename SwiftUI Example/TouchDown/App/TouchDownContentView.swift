@@ -37,6 +37,8 @@ struct TouchDownContentView: View {
                         }
                         .padding(15)
                         
+                        BrandGridView()
+                        
                         FooterView()
                             .padding(.horizontal)
                     }//VStack
