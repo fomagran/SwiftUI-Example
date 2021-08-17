@@ -34,6 +34,12 @@ struct ProductDetailView: View {
                         .font(.system(.body,design: .rounded))
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
+                    
+                    DetailQuantityFavoriteView()
+                        .padding(.vertical,10)
+                    
+                    DetailAddToCartView()
+                        .padding(.bottom,20)
                 }
             }
             .padding(.horizontal)
