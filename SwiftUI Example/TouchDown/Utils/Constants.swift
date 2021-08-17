@@ -9,6 +9,7 @@ import SwiftUI
 
 //DATA
 
+let products:[Product] = Bundle.main.decode("product.json")
 let categories:[Category] = Bundle.main.decode("category.json")
 let players:[Player] = Bundle.main.decode("player.json")
 
