@@ -27,3 +27,15 @@
 - Slider 이용하는 법
 
 <img src="https://user-images.githubusercontent.com/47676921/128965592-57ffed89-714c-4b12-abd8-7964d9a0df7b.gif"  width="200" height="400">
+
+# Touch Down
+
+## What I've learned?
+
+- @EnvironmentObject 사용하는 법
+- LazyHStack 사용하는 법
+- 기기에 맞게 SafeArea 조정하는 법
+- Custom Shape 만드는 법
+- @Published 사용하는 법
+
+<img src="https://user-images.githubusercontent.com/47676921/129674166-ffd109d4-a9c5-4eee-ace2-2566d6298398.gif"  width="200" height="400">
