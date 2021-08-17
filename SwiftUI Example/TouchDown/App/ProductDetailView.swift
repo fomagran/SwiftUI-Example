@@ -22,7 +22,13 @@ struct ProductDetailView: View {
                 .padding(.horizontal)
                 .zIndex(1)
             
+            
             VStack(alignment: .center, spacing: 0) {
+                
+                DetailRatingSizeView()
+                    .padding(.top,-20)
+                    .padding(.bottom,10)
+                
                 ScrollView(.vertical,showsIndicators: false) {
                     Text(sampleProduct.description)
                         .font(.system(.body,design: .rounded))
