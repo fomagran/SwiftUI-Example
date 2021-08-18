@@ -18,6 +18,7 @@
 		049A50D526CCA65A00812CE0 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049A50D226CCA65A00812CE0 /* sound-ding.mp3 */; };
 		049A50DD26CCB19500812CE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A50DC26CCB19500812CE0 /* Constants.swift */; };
 		049A50DF26CCB4FD00812CE0 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A50DE26CCB4FD00812CE0 /* HideKeyboardExtension.swift */; };
+		049A50E126CCBA3600812CE0 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A50E026CCBA3600812CE0 /* BackgroundImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		049A50D626CCA77000812CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		049A50DC26CCB19500812CE0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		049A50DE26CCB4FD00812CE0 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		049A50E026CCBA3600812CE0 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				049A50B826CCA61300812CE0 /* ContentView.swift */,
+				049A50E026CCBA3600812CE0 /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049A50DD26CCB19500812CE0 /* Constants.swift in Sources */,
+				049A50E126CCBA3600812CE0 /* BackgroundImageView.swift in Sources */,
 				049A50C026CCA61500812CE0 /* Persistence.swift in Sources */,
 				049A50DF26CCB4FD00812CE0 /* HideKeyboardExtension.swift in Sources */,
 				049A50B926CCA61300812CE0 /* ContentView.swift in Sources */,
