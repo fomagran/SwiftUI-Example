@@ -39,3 +39,18 @@
 - @Published 사용하는 법
 
 <img src="https://user-images.githubusercontent.com/47676921/129674166-ffd109d4-a9c5-4eee-ace2-2566d6298398.gif"  width="200" height="400">
+
+# Devote
+
+## What I've learned?
+
+- 코어데이터 사용하는 법
+- Gradient 백그라운드 넣는 법
+- 다크모드 적용하는 법
+- 버튼 사운드 넣는 법
+- 햅틱 모션 주는 법
+- 블러 효과 주는 법
+- Widget 디자인하고 추가하는 법
+
+<img src="https://user-images.githubusercontent.com/47676921/130003486-8abe19cf-45e1-4725-82ad-a0b31fd24b31.gif"  width="200" height="400">
+
