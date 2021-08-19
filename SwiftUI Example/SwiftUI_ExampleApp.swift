@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUI_ExampleApp: App {
-    @AppStorage("isOnboarding") var isOnboarding:Bool = true
+    let persistenceController = PersistenceController.shared
+
     var body: some Scene {
         WindowGroup {
-          TouchDownContentView()
-                .environmentObject(Shop())
+            DevoteContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
