@@ -5,6 +5,8 @@
 //  Created by Fomagran on 2021/08/18.
 //
 
+//Widget에서 쓰려면 오른쪽 Target Membership에서 체크해줘야함
+
 import SwiftUI
 
 //MARK:- FORMATTER
