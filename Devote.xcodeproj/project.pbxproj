@@ -23,6 +23,7 @@
 		049A50E126CCBA3600812CE0 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A50E026CCBA3600812CE0 /* BackgroundImageView.swift */; };
 		04C9345426CDFD3D00CF8EA4 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9345326CDFD3D00CF8EA4 /* ListRowItemView.swift */; };
 		04C9345626CDFE3700CF8EA4 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9345526CDFE3700CF8EA4 /* CheckboxStyle.swift */; };
+		04C9345826CE00CB00CF8EA4 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9345726CE00CB00CF8EA4 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		049A50E026CCBA3600812CE0 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		04C9345326CDFD3D00CF8EA4 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		04C9345526CDFE3700CF8EA4 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		04C9345726CE00CB00CF8EA4 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				049A50DC26CCB19500812CE0 /* Constants.swift */,
+				04C9345726CE00CB00CF8EA4 /* SoundPlayer.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				049A50C326CCA61500812CE0 /* Devote.xcdatamodeld in Sources */,
 				049A50B726CCA61300812CE0 /* DevoteApp.swift in Sources */,
 				04C9345626CDFE3700CF8EA4 /* CheckboxStyle.swift in Sources */,
+				04C9345826CE00CB00CF8EA4 /* SoundPlayer.swift in Sources */,
 				041906A826CDF2E600094B4D /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
