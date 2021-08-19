@@ -82,14 +82,7 @@ struct ContentView: View {
                     
                     List {
                         ForEach(items) { item in
-                            VStack(alignment:.leading) {
-                                Text(item.task ?? "")
-                                    .font(.headline)
-                                    .fontWeight(.bold)
-                                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                                    .font(.footnote)
-                                    .foregroundColor(.gray)
-                            }
+                            ListRowItemView(item: item)
                         }
                         .onDelete(perform: deleteItems)
                     }//List
