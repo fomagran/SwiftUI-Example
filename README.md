@@ -54,3 +54,15 @@
 
 <img src="https://user-images.githubusercontent.com/47676921/130003486-8abe19cf-45e1-4725-82ad-a0b31fd24b31.gif"  width="200" height="400">
 
+# Notes
+
+## What I've learned?
+
+- watchOS 앱 만드는법
+- 로컬폴더에 데이터 저장,삭제,읽는법
+- Slider step 및 Binding 써보는법
+ 
+<img src="https://user-images.githubusercontent.com/47676921/131279032-498376fd-6aec-4038-aecb-9053bdcd6e55.gif"  width="200" height="200">
+
+
+
