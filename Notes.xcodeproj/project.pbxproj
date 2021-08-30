@@ -17,6 +17,8 @@
 		0463F49126DC6C7D0004DD8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0463F49026DC6C7D0004DD8E /* Preview Assets.xcassets */; };
 		0463F4A326DC6DC60004DD8E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4A226DC6DC60004DD8E /* Note.swift */; };
 		0463F4A526DC76F30004DD8E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4A426DC76F30004DD8E /* DetailView.swift */; };
+		0463F4A726DC78D50004DD8E /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4A626DC78D50004DD8E /* CreditsView.swift */; };
+		0463F4AA26DC79110004DD8E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4A926DC79110004DD8E /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		0463F49226DC6C7D0004DD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0463F4A226DC6DC60004DD8E /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		0463F4A426DC76F30004DD8E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0463F4A626DC78D50004DD8E /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		0463F4A926DC79110004DD8E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		0463F48626DC6C7C0004DD8E /* Notes WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0463F4A826DC79030004DD8E /* Component */,
 				0463F4A126DC6DB70004DD8E /* Model */,
 				0463F4A026DC6DAA0004DD8E /* View */,
 				0463F48926DC6C7C0004DD8E /* NotesApp.swift */,
@@ -141,6 +146,7 @@
 			children = (
 				0463F48726DC6C7C0004DD8E /* ContentView.swift */,
 				0463F4A426DC76F30004DD8E /* DetailView.swift */,
+				0463F4A626DC78D50004DD8E /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +157,14 @@
 				0463F4A226DC6DC60004DD8E /* Note.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0463F4A826DC79030004DD8E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0463F4A926DC79110004DD8E /* HeaderView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +297,10 @@
 				0463F48826DC6C7C0004DD8E /* ContentView.swift in Sources */,
 				0463F48A26DC6C7C0004DD8E /* NotesApp.swift in Sources */,
 				0463F48C26DC6C7C0004DD8E /* ComplicationController.swift in Sources */,
+				0463F4A726DC78D50004DD8E /* CreditsView.swift in Sources */,
 				0463F4A526DC76F30004DD8E /* DetailView.swift in Sources */,
 				0463F4A326DC6DC60004DD8E /* Note.swift in Sources */,
+				0463F4AA26DC79110004DD8E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
