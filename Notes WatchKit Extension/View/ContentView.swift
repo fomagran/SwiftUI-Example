@@ -36,7 +36,6 @@ struct ContentView: View {
                     notes.append(note)
                     text = ""
                     save()
-                    
                 } label: {
                     Image(systemName: "plus.circle")
                         .font(.system(size:42,weight: .semibold))
