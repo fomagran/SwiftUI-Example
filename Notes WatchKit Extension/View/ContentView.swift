@@ -46,6 +46,13 @@ struct ContentView: View {
             }
         }
     }
+    
+    func delete(offsets:IndexSet) {
+        withAnimation {
+            notes.remove(atOffsets: offsets)
+            save()
+        }
+    }
 
 
     //MARK:- Body
@@ -82,6 +89,7 @@ struct ContentView: View {
                             .padding(.leading,5)
                     }//HStack
                 }
+                .onDelete(perform: delete)
             }
         }
         .navigationTitle("Notes")
