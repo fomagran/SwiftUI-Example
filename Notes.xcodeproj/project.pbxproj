@@ -19,6 +19,7 @@
 		0463F4A526DC76F30004DD8E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4A426DC76F30004DD8E /* DetailView.swift */; };
 		0463F4A726DC78D50004DD8E /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4A626DC78D50004DD8E /* CreditsView.swift */; };
 		0463F4AA26DC79110004DD8E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4A926DC79110004DD8E /* HeaderView.swift */; };
+		0463F4AC26DC7B010004DD8E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463F4AB26DC7B010004DD8E /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		0463F4A426DC76F30004DD8E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0463F4A626DC78D50004DD8E /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		0463F4A926DC79110004DD8E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0463F4AB26DC7B010004DD8E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				0463F48726DC6C7C0004DD8E /* ContentView.swift */,
 				0463F4A426DC76F30004DD8E /* DetailView.swift */,
 				0463F4A626DC78D50004DD8E /* CreditsView.swift */,
+				0463F4AB26DC7B010004DD8E /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0463F48826DC6C7C0004DD8E /* ContentView.swift in Sources */,
+				0463F4AC26DC7B010004DD8E /* SettingsView.swift in Sources */,
 				0463F48A26DC6C7C0004DD8E /* NotesApp.swift in Sources */,
 				0463F48C26DC6C7C0004DD8E /* ComplicationController.swift in Sources */,
 				0463F4A726DC78D50004DD8E /* CreditsView.swift in Sources */,
