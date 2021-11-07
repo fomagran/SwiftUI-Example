@@ -37,7 +37,6 @@ struct CardView: View {
             .offset(y:moveDownward ? -218 : -300)
             
             Button {
-                print("Button")
                 playSound(sound: "sound-chime", type: "mp3")
                 self.hapticImpact.impactOccurred()
                 self.showAlert.toggle()
