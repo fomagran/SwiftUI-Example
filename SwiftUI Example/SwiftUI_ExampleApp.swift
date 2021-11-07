@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct SwiftUI_ExampleApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            DevoteContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            LearnbyDoingContentView()
         }
     }
 }
