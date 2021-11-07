@@ -15,6 +15,8 @@
 		0473E27C27379716007758E9 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0473E27B27379716007758E9 /* sound-chime.mp3 */; };
 		0473E27E27379795007758E9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E27D27379795007758E9 /* CardView.swift */; };
 		0473E2822737985B007758E9 /* LearnbyDoingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E2812737985B007758E9 /* LearnbyDoingContentView.swift */; };
+		0473E28527379F03007758E9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E28427379F03007758E9 /* Card.swift */; };
+		0473E28727379F80007758E9 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E28627379F80007758E9 /* CardData.swift */; };
 		0479969726CB4C8D00203446 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969326CB4C8C00203446 /* category.json */; };
 		0479969826CB4C8D00203446 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969426CB4C8C00203446 /* product.json */; };
 		0479969926CB4C8D00203446 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969526CB4C8D00203446 /* player.json */; };
@@ -120,6 +122,8 @@
 		0473E27B27379716007758E9 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
 		0473E27D27379795007758E9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0473E2812737985B007758E9 /* LearnbyDoingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnbyDoingContentView.swift; sourceTree = "<group>"; };
+		0473E28427379F03007758E9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0473E28627379F80007758E9 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		0479969326CB4C8C00203446 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		0479969426CB4C8C00203446 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		0479969526CB4C8D00203446 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
@@ -221,6 +225,7 @@
 			children = (
 				0473E27F27379841007758E9 /* App */,
 				0473E28027379848007758E9 /* View */,
+				0473E28327379EF6007758E9 /* Model */,
 				0473E27B27379716007758E9 /* sound-chime.mp3 */,
 			);
 			path = "Learn by Doing";
@@ -240,6 +245,15 @@
 				0473E27D27379795007758E9 /* CardView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0473E28327379EF6007758E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0473E28427379F03007758E9 /* Card.swift */,
+				0473E28627379F80007758E9 /* CardData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0479969126CB4AD100203446 /* TouchDown */ = {
@@ -672,6 +686,7 @@
 				04F0E35826B0EFD000CA0CD2 /* FructusSettingView.swift in Sources */,
 				047996CF26CB66C500203446 /* DetailTopView.swift in Sources */,
 				04DA6B8226B2401100D88E2D /* Animal.swift in Sources */,
+				0473E28727379F80007758E9 /* CardData.swift in Sources */,
 				0430482226B0E40C00372370 /* FruitHeaderView.swift in Sources */,
 				04F2ED9F26AFB06200352F7D /* FructusContentView.swift in Sources */,
 				04DA6B9A26B24ECB00D88E2D /* AnimalVideo.swift in Sources */,
@@ -691,6 +706,7 @@
 				04F0E35C26B0F4CE00CA0CD2 /* SettingRowView.swift in Sources */,
 				0473E27E27379795007758E9 /* CardView.swift in Sources */,
 				047996AE26CB5AFB00203446 /* Player.swift in Sources */,
+				0473E28527379F03007758E9 /* Card.swift in Sources */,
 				047996B826CB5F2D00203446 /* CategoryGridView.swift in Sources */,
 				04DA6B4926B235F300D88E2D /* AfricaGalleryView.swift in Sources */,
 				047996C526CB642300203446 /* BrandItemView.swift in Sources */,
