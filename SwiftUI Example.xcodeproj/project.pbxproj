@@ -17,6 +17,7 @@
 		0473E2822737985B007758E9 /* LearnbyDoingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E2812737985B007758E9 /* LearnbyDoingContentView.swift */; };
 		0473E28527379F03007758E9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E28427379F03007758E9 /* Card.swift */; };
 		0473E28727379F80007758E9 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E28627379F80007758E9 /* CardData.swift */; };
+		0473E28A2737A1B3007758E9 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E2892737A1B3007758E9 /* PlaySound.swift */; };
 		0479969726CB4C8D00203446 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969326CB4C8C00203446 /* category.json */; };
 		0479969826CB4C8D00203446 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969426CB4C8C00203446 /* product.json */; };
 		0479969926CB4C8D00203446 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969526CB4C8D00203446 /* player.json */; };
@@ -124,6 +125,7 @@
 		0473E2812737985B007758E9 /* LearnbyDoingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnbyDoingContentView.swift; sourceTree = "<group>"; };
 		0473E28427379F03007758E9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		0473E28627379F80007758E9 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		0473E2892737A1B3007758E9 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		0479969326CB4C8C00203446 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		0479969426CB4C8C00203446 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		0479969526CB4C8D00203446 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				0473E27F27379841007758E9 /* App */,
 				0473E28027379848007758E9 /* View */,
 				0473E28327379EF6007758E9 /* Model */,
+				0473E2882737A1A6007758E9 /* Utils */,
 				0473E27B27379716007758E9 /* sound-chime.mp3 */,
 			);
 			path = "Learn by Doing";
@@ -254,6 +257,14 @@
 				0473E28627379F80007758E9 /* CardData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0473E2882737A1A6007758E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0473E2892737A1B3007758E9 /* PlaySound.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		0479969126CB4AD100203446 /* TouchDown */ = {
@@ -675,6 +686,7 @@
 				047996B426CB5DD300203446 /* Category.swift in Sources */,
 				0473E2822737985B007758E9 /* LearnbyDoingContentView.swift in Sources */,
 				047996C726CB646E00203446 /* BrandGridView.swift in Sources */,
+				0473E28A2737A1B3007758E9 /* PlaySound.swift in Sources */,
 				04DA6B8826B2466200D88E2D /* InsetGalleryView.swift in Sources */,
 				0430482026B0E1DA00372370 /* FruitDetailView.swift in Sources */,
 				04DA6B8A26B2495800D88E2D /* InsetFactView.swift in Sources */,
