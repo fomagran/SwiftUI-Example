@@ -54,3 +54,27 @@
 
 <img src="https://user-images.githubusercontent.com/47676921/130003486-8abe19cf-45e1-4725-82ad-a0b31fd24b31.gif"  width="200" height="400">
 
+# Notes
+
+## What I've learned?
+
+- watchOS 앱 만드는법
+- 로컬폴더에 데이터 저장,삭제,읽는법
+- Slider step 및 Binding 써보는법
+ 
+<img src="https://user-images.githubusercontent.com/47676921/131279032-498376fd-6aec-4038-aecb-9053bdcd6e55.gif"  width="200" height="200">
+
+# Learn by Doing
+
+## What I've learned?
+
+- 카드뷰 레이아웃 및 UI 만드는 법
+- ForEach문 모델 적용하는 법
+- 사운드,햅틱 적용하는 법
+- 애니메이션 적용하는 법
+- Alert 띄우는 법
+
+<img src="https://user-images.githubusercontent.com/47676921/140634730-9a09a12f-2598-49a6-a7bc-2d6acf90ab0b.gif"  width="200" height="400">
+
+
+
