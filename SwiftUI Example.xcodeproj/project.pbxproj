@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04234BDF27D06F0D00AC469D /* AvocadoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04234BDE27D06F0D00AC469D /* AvocadoContentView.swift */; };
 		0430481E26B0DDF600372370 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430481D26B0DDF600372370 /* FruitRowView.swift */; };
 		0430482026B0E1DA00372370 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430481F26B0E1DA00372370 /* FruitDetailView.swift */; };
 		0430482226B0E40C00372370 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430482126B0E40C00372370 /* FruitHeaderView.swift */; };
@@ -115,6 +116,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04234BDE27D06F0D00AC469D /* AvocadoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoContentView.swift; sourceTree = "<group>"; };
 		0430481D26B0DDF600372370 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		0430481F26B0E1DA00372370 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		0430482126B0E40C00372370 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
@@ -222,6 +224,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04234BDD27D06E3100AC469D /* Avocado */ = {
+			isa = PBXGroup;
+			children = (
+				04234BDE27D06F0D00AC469D /* AvocadoContentView.swift */,
+			);
+			path = Avocado;
+			sourceTree = "<group>";
+		};
 		0473E27A27379678007758E9 /* Learn by Doing */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,6 +504,7 @@
 				04DA6B3E26B235D600D88E2D /* Africa */,
 				0479969126CB4AD100203446 /* TouchDown */,
 				0473E27A27379678007758E9 /* Learn by Doing */,
+				04234BDD27D06E3100AC469D /* Avocado */,
 				04F2EDA026AFB06300352F7D /* Assets.xcassets */,
 				04DA6B3026B2348A00D88E2D /* SwiftUI-Example-Info.plist */,
 				04F2EDA226AFB06300352F7D /* Preview Content */,
@@ -698,6 +709,7 @@
 				04F0E35826B0EFD000CA0CD2 /* FructusSettingView.swift in Sources */,
 				047996CF26CB66C500203446 /* DetailTopView.swift in Sources */,
 				04DA6B8226B2401100D88E2D /* Animal.swift in Sources */,
+				04234BDF27D06F0D00AC469D /* AvocadoContentView.swift in Sources */,
 				0473E28727379F80007758E9 /* CardData.swift in Sources */,
 				0430482226B0E40C00372370 /* FruitHeaderView.swift in Sources */,
 				04F2ED9F26AFB06200352F7D /* FructusContentView.swift in Sources */,
