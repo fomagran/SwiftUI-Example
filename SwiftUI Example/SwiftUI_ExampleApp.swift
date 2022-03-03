@@ -12,7 +12,7 @@ struct SwiftUI_ExampleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            LearnbyDoingContentView()
+            AvocadoContentView()
         }
     }
 }
