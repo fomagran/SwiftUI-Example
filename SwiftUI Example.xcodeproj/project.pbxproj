@@ -245,7 +245,7 @@
 		04234BE027D071ED00AC469D /* App */ = {
 			isa = PBXGroup;
 			children = (
-				04234BDE27D06F0D00AC469D /* AvocadoContentView.swift */,
+				04234BE927D0723F00AC469D /* AppView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 				04234BE327D0722400AC469D /* AvocadosView.swift */,
 				04234BE527D0723100AC469D /* RipeningStagesView.swift */,
 				04234BE727D0723800AC469D /* SettingsView.swift */,
-				04234BE927D0723F00AC469D /* AppView.swift */,
+				04234BDE27D06F0D00AC469D /* AvocadoContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
