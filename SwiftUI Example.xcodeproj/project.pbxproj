@@ -24,6 +24,8 @@
 		0473E28727379F80007758E9 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E28627379F80007758E9 /* CardData.swift */; };
 		0473E28A2737A1B3007758E9 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E2892737A1B3007758E9 /* PlaySound.swift */; };
 		04784A0727E96C2C004C2D83 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04784A0627E96C2C004C2D83 /* HeaderView.swift */; };
+		04784A0927E972AF004C2D83 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04784A0827E972AF004C2D83 /* HeaderModel.swift */; };
+		04784A0C27E972F4004C2D83 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04784A0B27E972F4004C2D83 /* HeaderData.swift */; };
 		0479969726CB4C8D00203446 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969326CB4C8C00203446 /* category.json */; };
 		0479969826CB4C8D00203446 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969426CB4C8C00203446 /* product.json */; };
 		0479969926CB4C8D00203446 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 0479969526CB4C8D00203446 /* player.json */; };
@@ -138,6 +140,8 @@
 		0473E28627379F80007758E9 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		0473E2892737A1B3007758E9 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		04784A0627E96C2C004C2D83 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		04784A0827E972AF004C2D83 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		04784A0B27E972F4004C2D83 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		0479969326CB4C8C00203446 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		0479969426CB4C8C00203446 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		0479969526CB4C8D00203446 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
@@ -237,6 +241,7 @@
 		04234BDD27D06E3100AC469D /* Avocado */ = {
 			isa = PBXGroup;
 			children = (
+				04784A0A27E972E2004C2D83 /* Data */,
 				04234BE227D071FB00AC469D /* View */,
 				04234BE127D071F800AC469D /* Model */,
 				04234BE027D071ED00AC469D /* App */,
@@ -255,6 +260,7 @@
 		04234BE127D071F800AC469D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04784A0827E972AF004C2D83 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -314,6 +320,14 @@
 				0473E2892737A1B3007758E9 /* PlaySound.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		04784A0A27E972E2004C2D83 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04784A0B27E972F4004C2D83 /* HeaderData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		0479969126CB4AD100203446 /* TouchDown */ = {
@@ -704,6 +718,7 @@
 			files = (
 				04DA6B7426B2393900D88E2D /* AfricaCoverImageView.swift in Sources */,
 				04F0E35A26B0F2E800CA0CD2 /* SettingLabelView.swift in Sources */,
+				04784A0C27E972F4004C2D83 /* HeaderData.swift in Sources */,
 				04C96FDB26C20391007A7FFA /* AnimalMotionAnimationView.swift in Sources */,
 				047996DD26CB826000203446 /* Shop.swift in Sources */,
 				047996B626CB5E5E00203446 /* CategoryItemView.swift in Sources */,
@@ -748,6 +763,7 @@
 				04F2EDCA26AFD22200352F7D /* StartButtonView.swift in Sources */,
 				047996A626CB4F1900203446 /* Constants.swift in Sources */,
 				04F0E35826B0EFD000CA0CD2 /* FructusSettingView.swift in Sources */,
+				04784A0927E972AF004C2D83 /* HeaderModel.swift in Sources */,
 				047996CF26CB66C500203446 /* DetailTopView.swift in Sources */,
 				04DA6B8226B2401100D88E2D /* Animal.swift in Sources */,
 				04234BDF27D06F0D00AC469D /* AvocadoContentView.swift in Sources */,

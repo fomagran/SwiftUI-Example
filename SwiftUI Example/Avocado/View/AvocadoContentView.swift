@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct AvocadoContentView: View {
+    
+    //MARK:- Properties
+    
+    var headers:[Header] = headersData
+    
     var body: some View {
         ScrollView(.vertical,showsIndicators: false) {
             
@@ -15,7 +20,9 @@ struct AvocadoContentView: View {
             
             ScrollView(.horizontal,showsIndicators: false) {
                 HStack(alignment:.top,spacing: 0) {
-                    HeaderView()
+                    ForEach(headers) { item in
+                        HeaderView(header: item)
+                    }
                 }
             }
             
@@ -43,6 +50,6 @@ struct AvocadoContentView: View {
 
 struct AvocadoContentView_Previews: PreviewProvider {
     static var previews: some View {
-        AvocadoContentView()
+        AvocadoContentView(headers: headersData)
     }
 }
